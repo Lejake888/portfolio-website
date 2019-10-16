@@ -1,54 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
 header {
     text-align: center;
     height: 200px;
     background-color: rgb(89, 165, 89);
     padding: 50px;
-    margin-top: -50px;
     font-size: 30px;
-    font-family: 'Amatic SC';
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+header > button {
+    background-color: green;
+    border: none;
+    color:white;
 }
 
 body {
-    margin:0;
+    font-family: 'Amatic SC';
 }
 
 h1 {
+    margin:0;
+    font-size: 100px;
     color:white;
 }
 
-.navBar {
-    padding-top:10px;
-    background-color:green;
-    height: 33px
+h2 {
+    margin:0;
+    color:black;
 }
 
-.navBar > a {
-    color:white;
-    outline: none;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgb(35, 145, 35);
-    margin-top: 2px;
-    border-left: 20px;
-    padding-top:10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom:10px;
-
+#aboutMe {
+    text-align: center ;
 }
 
-a {
-   text-decoration: none; 
+#aboutMe > h2 {
+    text-align: center ;
 }
 
-h4{
-    text-align: center;
-}
+p {
+    font-family:arial;
+    text-align: center ;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2;
 
-button {
 
 }

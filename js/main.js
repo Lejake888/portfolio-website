@@ -1,0 +1,3 @@
+let firstButton = () => {
+    alert("Hello")
+}
