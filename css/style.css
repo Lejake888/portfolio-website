@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+header {
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: rgb(89, 165, 89);
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    color:white;
+}
+
+#menu {
+    height:20px;
+    width: 50px;
+    background-color: rgb(241, 111, 111);
+    outline: 2px solid red;
+    padding: 0;
+    border: none;
+}
