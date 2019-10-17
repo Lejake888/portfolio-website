@@ -18,6 +18,17 @@ header > button {
     background-color: green;
     border: none;
     color:white;
+    height: 30px;
+    width: 100px;
+    outline: none;
+}
+
+header > button:hover {
+    background-color: rgb(4, 75, 4);
+}
+
+header > button:active {
+    background-color: rgb(8, 46, 8);
 }
 
 body {
@@ -36,11 +47,12 @@ h2 {
 }
 
 #aboutMe {
-    text-align: center ;
+    text-align: center;
+    visibility: hidden;;
 }
 
 #aboutMe > h2 {
-    text-align: center ;
+    text-align: center;
 }
 
 p {
@@ -49,6 +61,4 @@ p {
     margin-left: 100px;
     margin-right: 100px;
     line-height: 2;
-
-
 }
