@@ -54,10 +54,12 @@ a {
     width: 33%;
     outline: none;
     font-size: 30px;
+    transition-duration: 1s;
 }
 
 .buttons > button:hover {
     background-color: rgb(4, 75, 4);
+    transition-duration: 1s;
 }
 
 .buttons > button:active {
@@ -88,6 +90,7 @@ p {
 
 #allBoxes {
     width: 100%;
+    align-content: space-around;
 }
 
 .box {
@@ -97,11 +100,19 @@ p {
     font-size: 12px;
 }
 
-.textbox1 {
-    background-color: rgb(163, 248, 163);
+.textbox1, .textbox2 {
+    background: rgba(94, 93, 93, 0.575);
+    transition-duration: 1s;
 }
-.textbox2 {
+
+.textbox1:hover {
+    background-color: rgb(163, 248, 163);
+    transition-duration: 1s;
+}
+
+.textbox2:hover {
     background-color: rgb(83, 187, 106);
+    transition-duration: 1s;
 }
 
 .box > h2 {
