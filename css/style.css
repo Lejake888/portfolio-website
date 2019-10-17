@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 
 header {
     text-align: center;
-    height: 200px;
+    height: 30vh;
     background-color: rgb(89, 165, 89);
-    padding: 50px;
+    padding: 200px;
     font-size: 30px;
-    background-repeat: no-repeat;
-    background-size: contain;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 
-header > button {
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+
+.buttons > button {
+    margin: 10px;
     background-color: green;
     border: none;
     color:white;
@@ -23,11 +34,11 @@ header > button {
     outline: none;
 }
 
-header > button:hover {
+.buttons > button:hover {
     background-color: rgb(4, 75, 4);
 }
 
-header > button:active {
+.buttons > button:active {
     background-color: rgb(8, 46, 8);
 }
 
@@ -37,18 +48,17 @@ body {
 
 h1 {
     margin:0;
-    font-size: 100px;
+    font-size: 200px;
     color:white;
 }
 
 h2 {
-    margin:0;
+    margin:20px;
     color:black;
 }
 
 #aboutMe {
     text-align: center;
-    visibility: hidden;;
 }
 
 #aboutMe > h2 {
@@ -56,9 +66,33 @@ h2 {
 }
 
 p {
-    font-family:arial;
+    font-family:"arial";
     text-align: center ;
     margin-left: 100px;
     margin-right: 100px;
     line-height: 2;
+}
+
+#allBoxes {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+
+.box {
+    font-size: 12px;
+}
+
+.textbox1 {
+    background-color: rgb(163, 248, 163);
+}
+
+.textbox2 {
+    background-color: rgb(216, 251, 152);
+}
+
+.textbox3 {
+    background-color: rgb(152, 220, 251);
 }
