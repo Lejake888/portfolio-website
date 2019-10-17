@@ -100,7 +100,7 @@ p {
     font-size: 12px;
 }
 
-.textbox1, .textbox2 {
+.textbox1, .textbox2, .textbox3 {
     background: rgba(94, 93, 93, 0.575);
     transition-duration: 1s;
 }
@@ -115,10 +115,16 @@ p {
     transition-duration: 1s;
 }
 
+.textbox3:hover {
+    background-color: rgb(53, 134, 71);
+    transition-duration: 1s;
+}
+
 .box > h2 {
     font-size: 50px;
     margin-left : 30px;
     text-decoration: underline;
     color:white;
     text-align: center;
+
 }
