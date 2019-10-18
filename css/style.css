@@ -30,6 +30,10 @@ header {
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    /* transition-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: header;
+    animation-duration: 20s; */
 }
 
 a {
@@ -54,11 +58,13 @@ a {
     width: 33%;
     outline: none;
     font-size: 30px;
+    transition: height 2s;
     transition-duration: 1s;
 }
 
 .buttons > button:hover {
     background-color: rgb(4, 75, 4);
+    height: 100px;
     transition-duration: 1s;
 }
 
@@ -126,5 +132,26 @@ p {
     text-decoration: underline;
     color:white;
     text-align: center;
-
 }
+
+/* @keyframes header {
+    0% {
+        background-color: rgb(116, 243, 116);
+    }
+    20% {
+        background-color: rgb(65, 226, 65);
+    }
+    40% {
+        background-color: rgb(75, 201, 75);
+    }
+    60% {
+        background-color: rgb(75, 160, 75);
+    }
+    80% {
+        background-color: rgb(36, 117, 36);
+
+    }
+    100% {
+        background-color: rgb(4, 75, 4);
+    }
+} */
