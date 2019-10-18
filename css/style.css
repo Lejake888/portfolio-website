@@ -14,6 +14,7 @@ h1 {
 
 h2 {
     color:black;
+    margin-right: 0px;
 }
 
 .head {
@@ -71,6 +72,7 @@ a {
 
 body {
     font-family: 'Amatic SC';
+    margin: 0px;
 }
 
 button {
@@ -88,6 +90,7 @@ p {
     font-size: 16px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: -10px;
     line-height: 2;
 }
 
@@ -98,8 +101,7 @@ p {
 
 .box {
     display:flex;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 12px;
 }
 
@@ -125,10 +127,25 @@ p {
 
 .box > h2 {
     font-size: 50px;
-    margin-left : 30px;
-    text-decoration: underline;
+    padding: 20px;
+    margin: 30px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-decoration: none;
     color:white;
-    text-align: center;
+    text-align: left;
+}
+
+.box > h2:hover {
+    text-decoration: underline;
+}
+
+
+li {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 /* @keyframes header {
