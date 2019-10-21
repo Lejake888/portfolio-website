@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Poiret+One|Righteous&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -14,6 +15,7 @@ h1 {
 
 h2 {
     color:black;
+    /* font-family: 'Poiret One', cursive; */
     margin-right: 0px;
 }
 
@@ -25,16 +27,17 @@ h2 {
 header {
     text-align: center;
     height:20vh;
-    background-color: rgb(89, 165, 89);
+    /* background-color: rgb(89, 165, 89); */
+    background-image: linear-gradient(rgb(89, 165, 89), rgb(70, 158, 70), rgb(49, 136, 49), rgb(29, 109, 29));
     padding: 200px;
     font-size: 30px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
-    transition-timing-function: ease;
+    /* transition-timing-function: ease;
     animation-iteration-count: infinite;
     animation-name: header;
-    animation-duration: 20s;
+    animation-duration: 20s; */
 }
 
 a {
@@ -154,20 +157,20 @@ li {
     margin-left: 25px;
 }
 
-@keyframes header {
+/* @keyframes header {
     0% {
-        background-color: rgb(116, 243, 116);
+        background-color: rgb(89, 165, 89);
     }
     25% {
-        background-color: rgb(65, 226, 65);
+        background-color: rgb(70, 158, 70);
     }
     50% {
-        background-color: rgb(75, 201, 75);
+        background-color: rgb(49, 136, 49);
     }
     75% {
-        background-color: rgb(75, 160, 75);
+        background-color: rgb(29, 109, 29);
     }
     100% {
-        background-color: rgb(116, 243, 116);
+        background-color: rgb(89, 165, 89);
     }
-}
+} */
