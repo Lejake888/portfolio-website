@@ -3,9 +3,18 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Poiret+One|Righteous&display=swap');
 
+/* Main body */
+
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Amatic SC';
+    margin: 0px;
+}
+
+/* Header content */
 
 h1 {
     margin:0;
@@ -22,6 +31,8 @@ h2 {
 .head {
     display: flex;
     justify-content: center;
+    padding-left:0;
+    padding-right:0;
 }
 
 header {
@@ -39,6 +50,8 @@ header {
     animation-name: header;
     animation-duration: 20s; */
 }
+
+/* Links and buttons */
 
 a {
     text-decoration: none;
@@ -75,20 +88,19 @@ a {
     background-color: rgb(8, 46, 8);
 }
 
-body {
-    font-family: 'Amatic SC';
-    margin: 0px;
-}
-
 button {
     margin:0;
     height: 100px;
     border-radius: 0px 0px 10px 10px;
 }
 
+/* Welcome paragraph */
+
 #welcome {
     text-align: center;
 }
+
+/* Boxes */
 
 p {
     font-family:"arial";
@@ -135,6 +147,8 @@ p {
     margin: 20px;
 }
 
+/* Box titles */
+
 .box > h2 {
     font-size: 50px;
     padding: 20px;
@@ -150,6 +164,7 @@ p {
     text-decoration: underline;
 }
 
+/* Links */
 
 li {
     color: white;
@@ -157,6 +172,13 @@ li {
     font-size: 20px;
     margin-left: 25px;
 }
+
+ul > li > a {
+    color:black;
+    font-size: 25px;
+}
+
+/* Animations */
 
 /* @keyframes header {
     0% {
