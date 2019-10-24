@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Poiret+One|Righteous&display=swap');
+
+/* Main body */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Amatic SC';
+}
+
+/* Header content */
+
+header {
+    text-align: center;
+    height:20vh;
+    /* background-color: rgb(89, 165, 89); */
+    background-image: linear-gradient(rgb(89, 165, 89), rgb(70, 158, 70), rgb(49, 136, 49), rgb(29, 109, 29));
+    padding: 200px;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* transition-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: header;
+    animation-duration: 20s; */
+
+    h1 {
+        margin:0;
+        font-size: 200px;
+        color:white;
+    }
+
+    h2 {
+        color:black;
+        /* font-family: 'Poiret One', cursive; */
+        margin-right: 0px;
+    }
+
+    .head {
+        display: flex;
+        justify-content: center;
+        padding-left:0;
+        padding-right:0;
+    }
+}
+
+/* Links and buttons */
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.buttons {
+    display:flex;
+    justify-content: flex-start;
+    border-radius: 25px;
+    margin-top:-10px;
+}
+
+button {
+    margin:0;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.buttons > button {
+    font-family: 'Amatic SC';
+    margin: 10px;
+    background-color: green;
+    border: none;
+    color:white;
+    height: auto;
+    width: 33%;
+    outline: none;
+    font-size: 30px;
+    transition-duration: 1s;
+
+
+    button:hover {
+        background-color: rgb(4, 75, 4);
+        transition-duration: 1s;
+        font-size: 50px;
+    }
+
+    button:active {
+        background-color: rgb(8, 46, 8);
+    }
+}
+
+/* Welcome paragraph */
+
+#welcome {
+    text-align: center;
+}
+
+/* Boxes */
+
+p {
+    font-family:"arial";
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -10px;
+    line-height: 2;
+}
+
+#allBoxes {
+    width: 100%;
+    align-content: space-around;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 15px;
+}
+
+.textbox1, .textbox2, .textbox3 {
+    background: rgba(94, 93, 93, 0.575);
+    transition-duration: 1s;
+    /* visibility: hidden; */
+}
+
+.textbox1:hover {
+    background-color: rgb(163, 248, 163);
+    transition-duration: 1s;
+    margin: 20px;
+}
+
+.textbox2:hover {
+    background-color: rgb(83, 187, 106);
+    transition-duration: 1s;
+    margin: 20px;
+}
+
+.textbox3:hover {
+    background-color: rgb(53, 134, 71);
+    transition-duration: 1s;
+    margin: 20px;
+}
+
+/* Box titles */
+
+.box > h2 {
+    font-size: 50px;
+    padding: 20px;
+    margin: 30px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-decoration: none;
+    color:white;
+    text-align: left;
+}
+
+.box > h2:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+
+li {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+ul > li > a {
+    color:black;
+    font-size: 25px;
+}
+
+/* Animations */
+
+/* @keyframes header {
+    0% {
+        background-color: rgb(89, 165, 89);
+    }
+    25% {
+        background-color: rgb(70, 158, 70);
+    }
+    50% {
+        background-color: rgb(49, 136, 49);
+    }
+    75% {
+        background-color: rgb(29, 109, 29);
+    }
+    100% {
+        background-color: rgb(89, 165, 89);
+    }
+} */
+
