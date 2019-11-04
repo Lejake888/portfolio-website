@@ -70,7 +70,6 @@ a {
 }
 
 button {
-  margin: 0;
   height: 100px;
   border-radius: 0px 0px 10px 10px;
 }
@@ -79,30 +78,28 @@ button {
   font-family: 'Amatic SC';
   margin: 10px;
   background-color: green;
+  -webkit-box-shadow: 0px 6px #035703;
+          box-shadow: 0px 6px #035703;
   border: none;
   color: white;
   height: auto;
   width: 33%;
   outline: none;
   font-size: 30px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
-.buttons > button button:hover {
-  background-color: #044b04;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  font-size: 50px;
-}
-
-.buttons > button button:active {
-  background-color: #082e08;
+button:hover {
+  margin-bottom: 4px;
 }
 
 /* Welcome paragraph */
 #welcome {
   text-align: center;
+}
+
+.startParagraph {
+  background-color: green;
+  height: 130px;
 }
 
 /* Boxes */
@@ -111,7 +108,6 @@ p {
   font-size: 16px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: -10px;
   line-height: 2;
 }
 
