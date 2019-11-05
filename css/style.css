@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Poiret+One|Righteous&display=swap");
+/* Variables */
 /* Main body */
 html {
   scroll-behavior: smooth;
@@ -90,6 +91,8 @@ button {
 
 button:hover {
   margin-bottom: 4px;
+  -webkit-box-shadow: 0px 0px #035703;
+          box-shadow: 0px 0px #035703;
 }
 
 /* Welcome paragraph */
@@ -100,9 +103,10 @@ button:hover {
 .startParagraph {
   background-color: green;
   height: 130px;
+  color: white;
 }
 
-/* Boxes */
+/* Bsoxes */
 p {
   font-family: "arial";
   font-size: 16px;
@@ -115,6 +119,10 @@ p {
   width: 100%;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
+}
+
+#aboutMe, #skills, #github {
+  visibility: hidden;
 }
 
 .box {
@@ -182,7 +190,6 @@ li {
 }
 
 ul > li > a {
-  color: black;
   font-size: 25px;
 }
 
