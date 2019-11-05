@@ -4,24 +4,28 @@ const gitButton= document.getElementById("three");
 
 const aboutBox= document.getElementById("aboutMe");
 const skillsBox= document.getElementById("skills");
-const gitBox= document.getElementById("button");
+const gitBox= document.getElementById("github");
+
+aboutBox.style.visibility = 'hidden';
+skillsBox.style.visibility = 'hidden';
+gitBox.style.visibility = 'hidden';
+
 
 aboutButton.addEventListener('click',function ()
     {
-    alert('hello')
-    aboutButton.style.visibility === 'visible'
+    aboutBox.style.visibility = 'visible';
     }  
 ); 
 
 skillsButton.addEventListener('click',function ()
     {
-    alert("hello");
+    skillsBox.style.visibility = 'visible';
     }  
 ); 
 
 gitButton.addEventListener('click',function ()
     {
-    alert("hello");
+    gitBox.style.visibility = 'visible';
     }  
 ); 
 

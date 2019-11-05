@@ -121,10 +121,6 @@ p {
       align-content: space-around;
 }
 
-#aboutMe, #skills, #github {
-  visibility: hidden;
-}
-
 .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,7 +137,6 @@ p {
   background: rgba(94, 93, 93, 0.575);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  /* visibility: hidden; */
 }
 
 .textbox1:hover {
