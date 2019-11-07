@@ -105,9 +105,13 @@ button:hover {
 }
 
 .startParagraph {
-    background-color: green;
     height: 130px;
     color:white;
+    // line-height: 1;
+    transition-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-name: welcome;
+    animation-duration: 20s; 
 }
 
 /* Bsoxes */
@@ -188,7 +192,7 @@ ul > li > a {
 
 /* Animations */
 
-/* @keyframes header {
+@keyframes welcome {
     0% {
         background-color: rgb(89, 165, 89);
     }
@@ -204,5 +208,5 @@ ul > li > a {
     100% {
         background-color: rgb(89, 165, 89);
     }
-} */
+}
 

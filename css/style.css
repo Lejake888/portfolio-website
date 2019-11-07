@@ -101,9 +101,16 @@ button:hover {
 }
 
 .startParagraph {
-  background-color: green;
   height: 130px;
   color: white;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: welcome;
+          animation-name: welcome;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
 }
 
 /* Bsoxes */
@@ -189,21 +196,38 @@ ul > li > a {
 }
 
 /* Animations */
-/* @keyframes header {
-    0% {
-        background-color: rgb(89, 165, 89);
-    }
-    25% {
-        background-color: rgb(70, 158, 70);
-    }
-    50% {
-        background-color: rgb(49, 136, 49);
-    }
-    75% {
-        background-color: rgb(29, 109, 29);
-    }
-    100% {
-        background-color: rgb(89, 165, 89);
-    }
-} */
+@-webkit-keyframes welcome {
+  0% {
+    background-color: #59a559;
+  }
+  25% {
+    background-color: #469e46;
+  }
+  50% {
+    background-color: #318831;
+  }
+  75% {
+    background-color: #1d6d1d;
+  }
+  100% {
+    background-color: #59a559;
+  }
+}
+@keyframes welcome {
+  0% {
+    background-color: #59a559;
+  }
+  25% {
+    background-color: #469e46;
+  }
+  50% {
+    background-color: #318831;
+  }
+  75% {
+    background-color: #1d6d1d;
+  }
+  100% {
+    background-color: #59a559;
+  }
+}
 /*# sourceMappingURL=style.css.map */
