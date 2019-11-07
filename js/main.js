@@ -29,17 +29,4 @@ gitButton.addEventListener('click',function ()
     }  
 ); 
 
-// for (i=0; i < boxes.length; i++)
-//     button.addEventListener("click", () => {
-
-//         if(boxes.style.visibility == "hidden") {
-//             boxes.style.visibility == "visible"
-//         } 
-//         else {
-//             boxes.style.visibility == "hidden";
-    
-//     }
-// });
-
-// Toggle boxes for when buttons are clicked, fade in
 // Potentially have 1 big box that would have all the info

@@ -16,9 +16,8 @@ body {
 .head {
   text-align: center;
   height: 20vh;
-  /* background-color: rgb(89, 165, 89); */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#59a559), color-stop(#469e46), color-stop(#318831), to(#1d6d1d));
-  background-image: linear-gradient(#59a559, #469e46, #318831, #1d6d1d);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#70c270), color-stop(#469e46), color-stop(#227a22), to(#114d11));
+  background-image: linear-gradient(#70c270, #469e46, #227a22, #114d11);
   padding: 200px;
   font-size: 30px;
   margin-top: -10px;
@@ -108,9 +107,12 @@ button:hover {
   text-align: center;
 }
 
+#welcome > h2:hover {
+  text-decoration: underline;
+}
+
 .startParagraph {
-  height: 130px;
-  color: white;
+  height: auto;
   margin: 15px;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
@@ -120,6 +122,13 @@ button:hover {
           animation-name: welcome;
   -webkit-animation-duration: 20s;
           animation-duration: 20s;
+}
+
+.startParagraph p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1;
+  color: white;
 }
 
 /* Bsoxes */
@@ -197,11 +206,23 @@ li {
   color: white;
   text-align: left;
   font-size: 20px;
-  margin-left: 25px;
+  margin-left: 5px;
+  float: left;
+  list-style: none;
 }
 
 ul > li > a {
   font-size: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul > li > a:hover {
+  color: black;
+}
+
+ul > li > a:active {
+  color: blue;
 }
 
 /* Animations */
