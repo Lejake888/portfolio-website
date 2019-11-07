@@ -18,16 +18,21 @@ body {
 
 /* Header content */
 
-header {
+.head {
     text-align: center;
     height:20vh;
     /* background-color: rgb(89, 165, 89); */
     background-image: $gradient;
+    // background-image: url('../images/sample.png');
     padding: 200px;
     font-size: 30px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* transition-timing-function: ease;
     animation-iteration-count: infinite;
     animation-name: header;

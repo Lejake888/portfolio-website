@@ -13,7 +13,7 @@ body {
 }
 
 /* Header content */
-header {
+.head {
   text-align: center;
   height: 20vh;
   /* background-color: rgb(89, 165, 89); */
@@ -24,25 +24,29 @@ header {
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* transition-timing-function: ease;
     animation-iteration-count: infinite;
     animation-name: header;
     animation-duration: 20s; */
 }
 
-header h1 {
+.head h1 {
   margin: 0;
   font-size: 200px;
   color: white;
 }
 
-header h2 {
+.head h2 {
   color: black;
   /* font-family: 'Poiret One', cursive; */
   margin-right: 0px;
 }
 
-header .head {
+.head .head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
